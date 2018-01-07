@@ -20,9 +20,9 @@
     }
   ],
   "autoload": {
-    "classmap": [
-      "src"
-    ]
+    "psr-4": {
+      "Yep\\Container\\": "src"
+    }
   },
   "require": {
     "php": ">=5.6"
